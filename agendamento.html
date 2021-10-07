@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>São Paulo</h1>
+    <section class="container">
+        <h1>Agende sua volta!</h1>
     <label for="inputCodFunc">Cod. Funcionário:</label>
     <input type="number" name="CodFunc" id="inputCodFunc">
     <div id="cidade">
@@ -15,7 +17,7 @@
         <label for="santos">Santos</label>
         <input type="radio" name="escritorio" id="santos" value="santos">
         <label for="saoPaulo">São Paulo</label>
-        <input type="radio" name="escritorio" id="saoPaulo" value="saoPaulo">
+        <input type="radio" name="escritorio" id="saoPaulo" value="saoPaulo" checked>
     </div>
     <div>
         <label for="inputDate">Selecione sua data:</label>
@@ -48,6 +50,8 @@
     </select>
     <img src="svg (1).svg" alt="posições das mesas">
     <button onclick="Submit()">Enviar</button>
+    </section>
+    
 </body>
 <script src="script.js"></script>
 </html>

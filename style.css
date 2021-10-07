@@ -1,0 +1,22 @@
+body{
+    font-family: 'Metropolis', sans-serif;
+}
+h1{
+    color: #FE4400;
+}
+button{
+    align-items: center;
+    border-radius: 8px;
+    color: #fff;
+    margin-bottom: 36px;
+    padding: 20px 30px;
+    background: #FC6027;
+    font-size: 18px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: max-content;
+    gap: 2%;
+}
