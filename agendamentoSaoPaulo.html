@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>São Paulo</h1>
+    <label for="inputCodFunc">Cod. Funcionário:</label>
+    <input type="number" name="CodFunc" id="inputCodFunc">
+    <div id="cidade">
+        <p>Selecione a cidade:</p>
+        <label for="santos">Santos</label>
+        <input type="radio" name="escritorio" id="santos" value="santos">
+        <label for="saoPaulo">São Paulo</label>
+        <input type="radio" name="escritorio" id="saoPaulo" value="saoPaulo">
+    </div>
+    <div>
+        <label for="inputDate">Selecione sua data:</label>
+        <input type="date" name="date" id="inputDate">
+    </div>
+    <p><label for="mesas">Selecione sua opção:</label></p>
+
+    <select name="mesasDisponiveis" id="mesas">
+        <option value="">-- Selecione uma mesa --</option>
+        <option value="mesaUm">1</option>
+        <option value="mesaDois">2</option>
+        <option value="mesaTres">3</option>
+        <option value="mesaQuatro">4</option>
+        <option value="mesaCinco">5</option>
+        <option value="mesaSeis">6</option>
+        <option value="mesaSete">7</option>
+        <option value="mesaOito">8</option>
+        <option value="mesaNove">9</option>
+        <option value="mesaDez">10</option>
+        <option value="mesaOnze">11</option>
+        <option value="mesaDoze">12</option>
+        <option value="mesaTreze">13</option>
+        <option value="mesaQuatorze">14</option>
+        <option value="mesaQuinze">15</option>
+        <option value="mesaDezesseis">16</option>
+        <option value="mesaDezessete">17</option>
+        <option value="mesaDezoito">18</option>
+        <option value="mesaDezenove">19</option>
+        <option value="mesaVinte">20</option>
+    </select>
+    <img src="svg (1).svg" alt="posições das mesas">
+    <button onclick="pegar()">Enviar</button>
+</body>
+<script src="script.js"></script>
+</html>
